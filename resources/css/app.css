@@ -1,0 +1,18 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'vue-next-select/dist/index.min.css';
+
+.vue-select{
+    width: 100%;
+    border: 1px solid #d9d9d9;
+}
+.vue-select input{
+    background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+}
+.vue-dropdown-item.selected.highlighted {
+    background-color: #ff6a6a20;
+}
+.vue-dropdown-item.highlighted {
+    background-color: #41b88320;
+}
